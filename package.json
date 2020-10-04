@@ -1,0 +1,37 @@
+{
+  "name": "storybooks",
+  "version": "1.0.0",
+  "description": "app to create public and private stories (by following traversymedia tutorials on youtube)",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikkhannn/StoryBooks-Nodejs-App.git"
+  },
+  "author": "Me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikkhannn/StoryBooks-Nodejs-App/issues"
+  },
+  "homepage": "https://github.com/ikkhannn/StoryBooks-Nodejs-App#readme",
+  "dependencies": {
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.0",
+    "mongoose": "^5.10.7",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.4"
+  }
+}
